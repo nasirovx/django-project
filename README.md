@@ -26,45 +26,29 @@ manage.py: Командная утилита Django
 ## Установка
 Клонируйте репозиторий:
 
-bash
-Копировать код
 git clone https://github.com/nasirovx/my_first_pj_django.git
 Перейдите в папку проекта:
 
-bash
-Копировать код
 cd my_first_pj_django/project_django
 Создайте и активируйте виртуальное окружение:
 
-bash
-Копировать код
 python -m venv env
 source env/bin/activate  # На Windows используйте `env\Scripts\activate`
 Установите зависимости:
 
-bash
-Копировать код
 pip install -r requirements.txt
 Примените миграции для настройки базы данных:
 
-bash
-Копировать код
 python manage.py migrate
 Создайте суперпользователя для доступа к административной панели:
 
-bash
-Копировать код
 python manage.py createsuperuser
 Запуск
 Запустите сервер разработки:
 
-bash
-Копировать код
 python manage.py runserver
 Откройте браузер и перейдите по адресу:
 
-###arduino
-Копировать код
 http://localhost:8000
 Контрибьютинг
 Если вы хотите внести вклад в проект, пожалуйста, создайте форк репозитория, сделайте изменения и отправьте pull request. Мы приветствуем все предложения и замечания!
